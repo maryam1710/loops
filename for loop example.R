@@ -31,11 +31,5 @@ polygon(x, y, col = "gray98")
 Sys.sleep(1)
 }
 #########
-x = rnorm(100)
-y = runif(100)
-k = sample(1:10, 10, replace = TRUE)
-for (i in k){
-  plot (x,y, xlab = "gamma", ylab = "r1", main = paste("patient", i , sep = " "))
-  Sys.sleep(1)
-  }
+
 ###########
