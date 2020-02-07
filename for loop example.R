@@ -28,7 +28,7 @@ for (z in 1:50){
 x = 0.9 * x[vertex1] + 0.1 * x[vertex2]
 y = 0.9 * y[vertex1] + 0.1 * y[vertex2]
 polygon(x, y, col = "gray98")
-Sys.sleep(.1)
+Sys.sleep(1)
 }
 #########
 x = rnorm(100)
